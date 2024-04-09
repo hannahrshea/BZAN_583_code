@@ -1,27 +1,28 @@
 Rprof()
-#Code for Monte Carlo Simulation
-ntrials<-1000000
-win.A<-0
-win.B<-0
-tie<-0
-for(n in 1:ntrials){
-  buzz.A<-sample(0:1,30,replace=TRUE,prob=c(60,40))
-  buzz.B<-(1-buzz.A)
-  correct.A<-sample(0:1,30,replace=TRUE,prob=c(20,80))
-  correct.B<-sample(0:1,30,replace=TRUE)
-  score.A<-sum(buzz.A*correct.A)
-  score.B<-sum(buzz.B*correct.B)
-  if(score.A>score.B){win.A<-win.A+1}
-  if(score.A<score.B){win.B<-win.B+1}
-  if(score.A==score.B){tie<-tie+1}
-}
+library(dplyr)
 
-#Outcomes
+ntrials=1000000
+ngames=30
+
+dataframe<-data.frame(trial = rep(1:ntrials, times = 30),
+                      buzz.A = sample(0:1,ntrials*ngames,replace=TRUE,prob=c(60,40))
+) %>%
+  mutate(buzz.B = (1-buzz.A),
+         correct.A = sample(0:1,ntrials*ngames,replace=TRUE,prob=c(20,80)),
+         correct.B = sample(0:1,ntrials*ngames,replace=TRUE)
+  ) %>%
+  mutate(score.A = buzz.A*correct.A,
+         score.B = buzz.B*correct.B
+  ) %>%
+  group_by(trial) %>%
+  summarise(A.total=sum(score.A),
+            B.total=sum(score.B))
+
 #Chance A wins
-win.A/ntrials
+mean(dataframe$A.total>dataframe$B.total)
 #Chance B wins
-win.B/ntrials
+mean(dataframe$B.total>dataframe$A.total)
 #Chance of tie
-tie/ntrials
+mean(dataframe$A.total==dataframe$B.total)
 Rprof(NULL)
 summaryRprof()
