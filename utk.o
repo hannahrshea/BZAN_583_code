@@ -1,0 +1,37 @@
+/u/hjohns61/BZAN_583_code
+loaded R
+$by.self
+                self.time self.pct total.time total.pct
+"La.svd"             4.90    83.05       5.08     86.10
+"aperm.default"      0.34     5.76       0.34      5.76
+"any"                0.12     2.03       0.12      2.03
+"colMeans"           0.12     2.03       0.12      2.03
+"is.finite"          0.12     2.03       0.12      2.03
+"svd"                0.10     1.69       5.30     89.83
+"array"              0.10     1.69       0.10      1.69
+"matrix"             0.06     1.02       0.06      1.02
+"sweep"              0.04     0.68       0.48      8.14
+
+$by.total
+                 total.time total.pct self.time self.pct
+"prcomp"               5.90    100.00      0.00     0.00
+"prcomp.default"       5.90    100.00      0.00     0.00
+"svd"                  5.30     89.83      0.10     1.69
+"La.svd"               5.08     86.10      4.90    83.05
+"scale"                0.60     10.17      0.00     0.00
+"scale.default"        0.60     10.17      0.00     0.00
+"sweep"                0.48      8.14      0.04     0.68
+"aperm"                0.44      7.46      0.00     0.00
+"aperm.default"        0.34      5.76      0.34     5.76
+"any"                  0.12      2.03      0.12     2.03
+"colMeans"             0.12      2.03      0.12     2.03
+"is.finite"            0.12      2.03      0.12     2.03
+"array"                0.10      1.69      0.10     1.69
+"matrix"               0.06      1.02      0.06     1.02
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 5.9
+
