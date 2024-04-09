@@ -1,37 +1,56 @@
 /u/hjohns61/BZAN_583_code
 loaded R
+[1] 0.509751
+[1] 0.399345
+[1] 0.090904
 $by.self
-                self.time self.pct total.time total.pct
-"La.svd"             4.90    83.05       5.08     86.10
-"aperm.default"      0.34     5.76       0.34      5.76
-"any"                0.12     2.03       0.12      2.03
-"colMeans"           0.12     2.03       0.12      2.03
-"is.finite"          0.12     2.03       0.12      2.03
-"svd"                0.10     1.69       5.30     89.83
-"array"              0.10     1.69       0.10      1.69
-"matrix"             0.06     1.02       0.06      1.02
-"sweep"              0.04     0.68       0.48      8.14
+             self.time self.pct total.time total.pct
+"sample.int"      7.52    42.68      13.34     75.71
+"stopifnot"       3.70    21.00       5.60     31.78
+"sample"          3.64    20.66      17.08     96.94
+"...elt"          1.02     5.79       1.20      6.81
+"sum"             0.52     2.95       0.52      2.95
+"all"             0.44     2.50       0.44      2.50
+"length"          0.28     1.59       0.28      1.59
+"c"               0.14     0.79       0.14      0.79
+"...length"       0.10     0.57       0.10      0.57
+"anyNA"           0.10     0.57       0.10      0.57
+"("               0.08     0.45       0.08      0.45
+"invisible"       0.06     0.34       0.06      0.34
+"as.list"         0.02     0.11       0.02      0.11
 
 $by.total
-                 total.time total.pct self.time self.pct
-"prcomp"               5.90    100.00      0.00     0.00
-"prcomp.default"       5.90    100.00      0.00     0.00
-"svd"                  5.30     89.83      0.10     1.69
-"La.svd"               5.08     86.10      4.90    83.05
-"scale"                0.60     10.17      0.00     0.00
-"scale.default"        0.60     10.17      0.00     0.00
-"sweep"                0.48      8.14      0.04     0.68
-"aperm"                0.44      7.46      0.00     0.00
-"aperm.default"        0.34      5.76      0.34     5.76
-"any"                  0.12      2.03      0.12     2.03
-"colMeans"             0.12      2.03      0.12     2.03
-"is.finite"            0.12      2.03      0.12     2.03
-"array"                0.10      1.69      0.10     1.69
-"matrix"               0.06      1.02      0.06     1.02
+                         total.time total.pct self.time self.pct
+"sample"                      17.08     96.94      3.64    20.66
+"sample.int"                  13.34     75.71      7.52    42.68
+"stopifnot"                    5.60     31.78      3.70    21.00
+"...elt"                       1.20      6.81      1.02     5.79
+"sum"                          0.52      2.95      0.52     2.95
+"all"                          0.44      2.50      0.44     2.50
+"length"                       0.28      1.59      0.28     1.59
+"c"                            0.14      0.79      0.14     0.79
+"...length"                    0.10      0.57      0.10     0.57
+"anyNA"                        0.10      0.57      0.10     0.57
+"("                            0.08      0.45      0.08     0.45
+"invisible"                    0.06      0.34      0.06     0.34
+"as.list"                      0.02      0.11      0.02     0.11
+"checkSkipLoopCntxt"           0.02      0.11      0.00     0.00
+"checkSkipLoopCntxtList"       0.02      0.11      0.00     0.00
+"cmp"                          0.02      0.11      0.00     0.00
+"cmpCall"                      0.02      0.11      0.00     0.00
+"compile"                      0.02      0.11      0.00     0.00
+"compiler:::tryCompile"        0.02      0.11      0.00     0.00
+"doTryCatch"                   0.02      0.11      0.00     0.00
+"genCode"                      0.02      0.11      0.00     0.00
+"h"                            0.02      0.11      0.00     0.00
+"tryCatch"                     0.02      0.11      0.00     0.00
+"tryCatchList"                 0.02      0.11      0.00     0.00
+"tryCatchOne"                  0.02      0.11      0.00     0.00
+"tryInline"                    0.02      0.11      0.00     0.00
 
 $sample.interval
 [1] 0.02
 
 $sampling.time
-[1] 5.9
+[1] 17.62
 
