@@ -1,5 +1,7 @@
 Rprof()
+
 system.time()
+
 library(dplyr)
 
 ntrials=1000000
@@ -25,6 +27,8 @@ mean(dataframe$A.total>dataframe$B.total)
 mean(dataframe$B.total>dataframe$A.total)
 #Chance of tie
 mean(dataframe$A.total==dataframe$B.total)
+
 system.time()
+
 Rprof(NULL)
 summaryRprof()
