@@ -1,0 +1,264 @@
+/u/hjohns61/BZAN_583_code
+loaded R
+[1] 0.509277
+[1] 0.399799
+[1] 0.090924
+Time difference of 24.83563 secs
+$by.self
+             self.time self.pct total.time total.pct
+"sample.int"      8.40    39.92      15.24     72.43
+"sample"          4.86    23.10      20.34     96.67
+"stopifnot"       4.20    19.96       6.46     30.70
+"...elt"          1.08     5.13       1.40      6.65
+"sum"             0.68     3.23       0.68      3.23
+"length"          0.56     2.66       0.56      2.66
+"all"             0.52     2.47       0.52      2.47
+"c"               0.34     1.62       0.34      1.62
+"anyNA"           0.16     0.76       0.16      0.76
+"...length"       0.14     0.67       0.14      0.67
+">"               0.04     0.19       0.04      0.19
+"invisible"       0.04     0.19       0.04      0.19
+"h"               0.02     0.10       0.02      0.10
+
+$by.total
+                        total.time total.pct self.time self.pct
+"sample"                     20.34     96.67      4.86    23.10
+"sample.int"                 15.24     72.43      8.40    39.92
+"stopifnot"                   6.46     30.70      4.20    19.96
+"...elt"                      1.40      6.65      1.08     5.13
+"sum"                         0.68      3.23      0.68     3.23
+"length"                      0.56      2.66      0.56     2.66
+"all"                         0.52      2.47      0.52     2.47
+"c"                           0.34      1.62      0.34     1.62
+"anyNA"                       0.16      0.76      0.16     0.76
+"...length"                   0.14      0.67      0.14     0.67
+">"                           0.04      0.19      0.04     0.19
+"invisible"                   0.04      0.19      0.04     0.19
+"h"                           0.02      0.10      0.02     0.10
+"cb$putconst"                 0.02      0.10      0.00     0.00
+"cmp"                         0.02      0.10      0.00     0.00
+"cmpCall"                     0.02      0.10      0.00     0.00
+"cmpCallArgs"                 0.02      0.10      0.00     0.00
+"cmpCallSymFun"               0.02      0.10      0.00     0.00
+"cmpForBody"                  0.02      0.10      0.00     0.00
+"cmpSymbolAssign"             0.02      0.10      0.00     0.00
+"compile"                     0.02      0.10      0.00     0.00
+"compiler:::tryCompile"       0.02      0.10      0.00     0.00
+"doTryCatch"                  0.02      0.10      0.00     0.00
+"genCode"                     0.02      0.10      0.00     0.00
+"tryCatch"                    0.02      0.10      0.00     0.00
+"tryCatchList"                0.02      0.10      0.00     0.00
+"tryCatchOne"                 0.02      0.10      0.00     0.00
+"tryInline"                   0.02      0.10      0.00     0.00
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 21.04
+
+[1] 0.509654
+[1] 0.399356
+[1] 0.09099
+Time difference of 10.62074 secs
+$by.self
+                                   self.time self.pct total.time total.pct
+".Call"                                 2.34    25.43       5.86     63.70
+"<Anonymous>"                           1.58    17.17       1.72     18.70
+"sample.int"                            1.32    14.35       1.32     14.35
+"vec_locate_sorted_groups"              0.80     8.70       0.80      8.70
+".External2"                            0.74     8.04       8.72     94.78
+"sum"                                   0.52     5.65       0.52      5.65
+"sample"                                0.50     5.43       1.82     19.78
+"data.frame"                            0.30     3.26       1.00     10.87
+"*"                                     0.18     1.96       0.18      1.96
+"withCallingHandlers"                   0.14     1.52       6.76     73.48
+"-"                                     0.12     1.30       0.12      1.30
+"lazyLoadDBfetch"                       0.08     0.87       0.08      0.87
+"unclass"                               0.06     0.65       0.06      0.65
+"getClassDef"                           0.04     0.43       0.04      0.43
+"new_tibble"                            0.04     0.43       0.04      0.43
+"vec_set_attributes"                    0.04     0.43       0.04      0.43
+"FUN"                                   0.02     0.22       5.28     57.39
+"namespaceImportFrom"                   0.02     0.22       0.24      2.61
+"Recall"                                0.02     0.22       0.14      1.52
+"fun"                                   0.02     0.22       0.12      1.30
+"getGeneric"                            0.02     0.22       0.08      0.87
+"cmp"                                   0.02     0.22       0.04      0.43
+"as.vector"                             0.02     0.22       0.02      0.22
+"class"                                 0.02     0.22       0.02      0.22
+"dyn.load"                              0.02     0.22       0.02      0.22
+"environment"                           0.02     0.22       0.02      0.22
+"exists"                                0.02     0.22       0.02      0.22
+"file"                                  0.02     0.22       0.02      0.22
+"genericForBasic"                       0.02     0.22       0.02      0.22
+"getDLLRegisteredRoutines.DLLInfo"      0.02     0.22       0.02      0.22
+"grep"                                  0.02     0.22       0.02      0.22
+"gzfile"                                0.02     0.22       0.02      0.22
+"mean.default"                          0.02     0.22       0.02      0.22
+"names"                                 0.02     0.22       0.02      0.22
+"putconst"                              0.02     0.22       0.02      0.22
+"validate_grouped_df"                   0.02     0.22       0.02      0.22
+
+$by.total
+                                   total.time total.pct self.time self.pct
+".External2"                             8.72     94.78      0.74     8.04
+"%>%"                                    8.72     94.78      0.00     0.00
+"summarise"                              8.72     94.78      0.00     0.00
+"withCallingHandlers"                    6.76     73.48      0.14     1.52
+"eval"                                   5.92     64.35      0.00     0.00
+".Call"                                  5.86     63.70      2.34    25.43
+"summarise.grouped_df"                   5.36     58.26      0.00     0.00
+"summarise_cols"                         5.34     58.04      0.00     0.00
+"FUN"                                    5.28     57.39      0.02     0.22
+"lapply"                                 5.24     56.96      0.00     0.00
+"map"                                    5.18     56.30      0.00     0.00
+"mask$eval_all_summarise"                4.44     48.26      0.00     0.00
+"group_by"                               3.36     36.52      0.00     0.00
+"mutate"                                 2.44     26.52      0.00     0.00
+"sample"                                 1.82     19.78      0.50     5.43
+"<Anonymous>"                            1.72     18.70      1.58    17.17
+"mutate.data.frame"                      1.44     15.65      0.00     0.00
+"mutate_cols"                            1.44     15.65      0.00     0.00
+"mask$eval_all_mutate"                   1.42     15.43      0.00     0.00
+"mutate_col"                             1.42     15.43      0.00     0.00
+"sample.int"                             1.32     14.35      1.32    14.35
+"data.frame"                             1.00     10.87      0.30     3.26
+"group_by.data.frame"                    0.92     10.00      0.00     0.00
+"grouped_df"                             0.92     10.00      0.00     0.00
+"compute_groups"                         0.90      9.78      0.00     0.00
+"dplyr_locate_sorted_groups"             0.84      9.13      0.00     0.00
+"vec_locate_sorted_groups"               0.80      8.70      0.80     8.70
+"sum"                                    0.52      5.65      0.52     5.65
+"library"                                0.46      5.00      0.00     0.00
+"vec_c"                                  0.46      5.00      0.00     0.00
+"doTryCatch"                             0.44      4.78      0.00     0.00
+"loadNamespace"                          0.44      4.78      0.00     0.00
+"tryCatch"                               0.44      4.78      0.00     0.00
+"tryCatchList"                           0.44      4.78      0.00     0.00
+"tryCatchOne"                            0.44      4.78      0.00     0.00
+"namespaceImportFrom"                    0.24      2.61      0.02     0.22
+"asNamespace"                            0.22      2.39      0.00     0.00
+"methods::cacheMetaData"                 0.20      2.17      0.00     0.00
+"*"                                      0.18      1.96      0.18     1.96
+".updateMethodsInTable"                  0.18      1.96      0.00     0.00
+"dplyr_vec_ptype_common"                 0.16      1.74      0.00     0.00
+"namespaceImport"                        0.16      1.74      0.00     0.00
+"vec_ptype_common"                       0.16      1.74      0.00     0.00
+"Recall"                                 0.14      1.52      0.02     0.22
+".checkGroupSigLength"                   0.14      1.52      0.00     0.00
+"runHook"                                0.14      1.52      0.00     0.00
+"-"                                      0.12      1.30      0.12     1.30
+"fun"                                    0.12      1.30      0.02     0.22
+"vec_cast_common"                        0.12      1.30      0.00     0.00
+"lazyLoadDBfetch"                        0.08      0.87      0.08     0.87
+"getGeneric"                             0.08      0.87      0.02     0.22
+".recMembers"                            0.08      0.87      0.00     0.00
+"getGroupMembers"                        0.08      0.87      0.00     0.00
+"unclass"                                0.06      0.65      0.06     0.65
+"assign_crayon_styles"                   0.06      0.65      0.00     0.00
+"callback"                               0.06      0.65      0.00     0.00
+"detect_installed"                       0.06      0.65      0.00     0.00
+"do.call"                                0.06      0.65      0.00     0.00
+"enexpr"                                 0.06      0.65      0.00     0.00
+"eval.parent"                            0.06      0.65      0.00     0.00
+"inject"                                 0.06      0.65      0.00     0.00
+"is"                                     0.06      0.65      0.00     0.00
+"is_installed"                           0.06      0.65      0.00     0.00
+"list_c"                                 0.06      0.65      0.00     0.00
+"local"                                  0.06      0.65      0.00     0.00
+"make_style_fast"                        0.06      0.65      0.00     0.00
+"mapply"                                 0.06      0.65      0.00     0.00
+"ns_exports_has"                         0.06      0.65      0.00     0.00
+"pmap"                                   0.06      0.65      0.00     0.00
+"requireNamespace"                       0.06      0.65      0.00     0.00
+"run_on_load"                            0.06      0.65      0.00     0.00
+"tibble"                                 0.06      0.65      0.00     0.00
+"tibble_quos"                            0.06      0.65      0.00     0.00
+"vec_proxy"                              0.06      0.65      0.00     0.00
+"getClassDef"                            0.04      0.43      0.04     0.43
+"new_tibble"                             0.04      0.43      0.04     0.43
+"vec_set_attributes"                     0.04      0.43      0.04     0.43
+"cmp"                                    0.04      0.43      0.02     0.22
+"add_handler"                            0.04      0.43      0.00     0.00
+"cmpCall"                                0.04      0.43      0.00     0.00
+"cmpfun"                                 0.04      0.43      0.00     0.00
+"compiler:::tryCmpfun"                   0.04      0.43      0.00     0.00
+"defer"                                  0.04      0.43      0.00     0.00
+"exit_frame"                             0.04      0.43      0.00     0.00
+"find.package"                           0.04      0.43      0.00     0.00
+"genCode"                                0.04      0.43      0.00     0.00
+"h"                                      0.04      0.43      0.00     0.00
+"library.dynam"                          0.04      0.43      0.00     0.00
+"map_lgl"                                0.04      0.43      0.00     0.00
+"new_grouped_df"                         0.04      0.43      0.00     0.00
+"new_list_of"                            0.04      0.43      0.00     0.00
+"new_list_of0"                           0.04      0.43      0.00     0.00
+"new_vctr"                               0.04      0.43      0.00     0.00
+"rlang::local_options"                   0.04      0.43      0.00     0.00
+"setdiff"                                0.04      0.43      0.00     0.00
+"sys.source"                             0.04      0.43      0.00     0.00
+"try"                                    0.04      0.43      0.00     0.00
+"tryInline"                              0.04      0.43      0.00     0.00
+"vapply"                                 0.04      0.43      0.00     0.00
+"vec_size"                               0.04      0.43      0.00     0.00
+"as.vector"                              0.02      0.22      0.02     0.22
+"class"                                  0.02      0.22      0.02     0.22
+"dyn.load"                               0.02      0.22      0.02     0.22
+"environment"                            0.02      0.22      0.02     0.22
+"exists"                                 0.02      0.22      0.02     0.22
+"file"                                   0.02      0.22      0.02     0.22
+"genericForBasic"                        0.02      0.22      0.02     0.22
+"getDLLRegisteredRoutines.DLLInfo"       0.02      0.22      0.02     0.22
+"grep"                                   0.02      0.22      0.02     0.22
+"gzfile"                                 0.02      0.22      0.02     0.22
+"mean.default"                           0.02      0.22      0.02     0.22
+"names"                                  0.02      0.22      0.02     0.22
+"putconst"                               0.02      0.22      0.02     0.22
+"validate_grouped_df"                    0.02      0.22      0.02     0.22
+".getGeneric"                            0.02      0.22      0.00     0.00
+".getGenericFromCache"                   0.02      0.22      0.00     0.00
+".getGenericFromCacheTable"              0.02      0.22      0.00     0.00
+".resetInheritedMethods"                 0.02      0.22      0.00     0.00
+".rlang_purrr_map_mold"                  0.02      0.22      0.00     0.00
+"DataMask$new"                           0.02      0.22      0.00     0.00
+"as_function"                            0.02      0.22      0.00     0.00
+"assignNativeRoutines"                   0.02      0.22      0.00     0.00
+"cb$putcode"                             0.02      0.22      0.00     0.00
+"checkConflicts"                         0.02      0.22      0.00     0.00
+"check_valid_col"                        0.02      0.22      0.00     0.00
+"check_valid_cols"                       0.02      0.22      0.00     0.00
+"cmpComplexAssign"                       0.02      0.22      0.00     0.00
+"cmpSetterCall"                          0.02      0.22      0.00     0.00
+"compute_by"                             0.02      0.22      0.00     0.00
+"frame_loc"                              0.02      0.22      0.00     0.00
+"getClasses"                             0.02      0.22      0.00     0.00
+"group_data"                             0.02      0.22      0.00     0.00
+"group_data.grouped_df"                  0.02      0.22      0.00     0.00
+"group_vars"                             0.02      0.22      0.00     0.00
+"group_vars.data.frame"                  0.02      0.22      0.00     0.00
+"importIntoEnv"                          0.02      0.22      0.00     0.00
+"initialize"                             0.02      0.22      0.00     0.00
+"is_function"                            0.02      0.22      0.00     0.00
+"lazyLoad"                               0.02      0.22      0.00     0.00
+"lazyLoadDBexec"                         0.02      0.22      0.00     0.00
+"map_mold"                               0.02      0.22      0.00     0.00
+"mean"                                   0.02      0.22      0.00     0.00
+"names<-"                                0.02      0.22      0.00     0.00
+"names<-.grouped_df"                     0.02      0.22      0.00     0.00
+"obj_is_vector"                          0.02      0.22      0.00     0.00
+"parse"                                  0.02      0.22      0.00     0.00
+"readRDS"                                0.02      0.22      0.00     0.00
+"remove"                                 0.02      0.22      0.00     0.00
+"same.isFn"                              0.02      0.22      0.00     0.00
+"source_frame"                           0.02      0.22      0.00     0.00
+"vec_is"                                 0.02      0.22      0.00     0.00
+"vectbl_recycle_rows"                    0.02      0.22      0.00     0.00
+"which"                                  0.02      0.22      0.00     0.00
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 9.2
+
