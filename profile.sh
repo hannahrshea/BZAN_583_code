@@ -16,4 +16,5 @@ module load r
 echo "loaded R"
 module list
 
-time Rscript profile.R
+time Rscript profile_slow.R
+time Rscript profile_fast.R
